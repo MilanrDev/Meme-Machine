@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E3E8E9;
+
+}
+p{
+  font-family: 'Architects Daughter', cursive;
+  margin-left: 30%;
+  font-size: 40px;
+}
+/* .bigSec{
+margin:auto;
+height:700px;
+width:100%;
+border: solid red 1px;
+} */
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+
+}
+.container{
+  margin: auto;
+  color: white;
+}
+.forThree{
+
+position: absolute;
+margin-left: 5%;
+margin-top: 15px;
+background-color: transparent;
+/* border: solid black 2px; */
+
+}
+
+#slotLeft,#slotMid,#slotRight{
+  /* border: solid blue 1px; */
+  height:100px;
+  width: 20%;
+  display: inline;
+
+}
+
+.message{
+  text-align: center;
+   display: none;
+  font-size: 40px;
+  color: red;
+}
+.buttons{
+  text-align: center;
+  margin-top:400px;
+  margin-bottom:50px;
+}
+
+img{
+
+    width:25%;
+    height:250px;
+    margin-left: 3%;
+    border: solid white 7px;
+
+}
